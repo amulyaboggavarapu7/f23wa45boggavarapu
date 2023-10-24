@@ -14,15 +14,6 @@ router.get('/', function(req, res, next) {
     b=Math.asin(rand).toFixed(2);
     c=Math.asinh(rand).toFixed(2);
     res.send(`Math.cos(${y}): ${a} Math.asin(${y}) is: ${b} Math.asinh(${y}) is : ${c}`);
-    
-    
-    
-    
-    
-
-    
-    
-    
   });
   
 module.exports = router;
